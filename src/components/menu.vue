@@ -8,6 +8,9 @@
                 <RouterLink :to="{ name:'admin' }" class="nav-link">Cursos</RouterLink>
             </li>
             <li class="nav-item">
+                <RouterLink to="/cursos/courses" class="nav-link">Courses</RouterLink>
+            </li>
+            <li class="nav-item">
                 <RouterLink :to="{ name:'categoriasadmin' }" class="nav-link">Categorias</RouterLink>
             </li>
         </ul>
